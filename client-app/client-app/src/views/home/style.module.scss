@@ -1,0 +1,29 @@
+@import "../../styles/utils.scss";
+
+.Home {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background: linear-gradient(rgb(169, 71, 189), #73d6ff);
+    height: 100vh;
+
+    .Gougli {
+        color: white;
+        font-size: 120px;
+        font-family: "OptimusPrincepsSemiBold";
+        line-height: 1.2;
+        text-align: center;
+        left: -4.594px;
+        top: -17.5px;
+        z-index: 1;
+    }
+
+    .Input {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
